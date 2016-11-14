@@ -1,0 +1,181 @@
+[19087.288279] Opened the device file hc1, minor number 59 
+[19103.062250] .................inside ioctl............
+[19103.067347] IOCTL: SETPIN
+[19103.074451] IOCTL: echo_mux: 74, echo_pin: 10, echo_dir: 26
+[19103.080381] IOCTL: trig_pin: 5, trig_dir: 24, trig_mux: 44 
+[19103.089111] ------------[ cut here ]------------
+[19103.093928] WARNING: at /home/yhlee/sdk/build/tmp/work/quark-poky-linux/linux-yocto-quark/3.8-r0/linux/drivers/gpio/gpiolib.c:1921 __gpio_set_value+0xcf/0xe0()
+[19103.108359] Hardware name: QUARK
+[19103.111683] Modules linked in: HCSR04_drv(O) bnep g_acm_ms libcomposite usbhid usb_storage stmmac pppoe pppox ppp_generic slhc pch_udc udc_core ohci_hcd iwlwifi cfg80211 gpio_sch evdev ehci_pci ehci_hcd adc1x8s102(C) industrialio_triggered_buffer kfifo_buf industrialio spi_pxa2xx spi_pxa2xx_pci spidev i2c_dev efivars pca9685 btusb regmap_i2c gpio_pca953x bluetooth rfkill usbcore intel_qrk_gip usb_common uio at24 ipv6 [last unloaded: HCSR04_drv]
+[19103.152121] Pid: 476, comm: HCSR04_user Tainted: G      D WC O 3.8.7-yocto-standard #1
+[19103.160145] Call Trace:
+[19103.162676]  [<c102e6ec>] warn_slowpath_common+0x6c/0xa0
+[19103.168052]  [<c11c610f>] ? __gpio_set_value+0xcf/0xe0
+[19103.173348]  [<c11c610f>] ? __gpio_set_value+0xcf/0xe0
+[19103.178565]  [<c102e7c2>] warn_slowpath_null+0x22/0x30
+[19103.183860]  [<c11c610f>] __gpio_set_value+0xcf/0xe0
+[19103.188896]  [<d278f84c>] hcsr_ioctl+0x1cc/0x320 [HCSR04_drv]
+[19103.194798]  [<d278f680>] ? hcsr_write+0x1d0/0x1d0 [HCSR04_drv]
+[19103.200882]  [<c10f14a6>] do_vfs_ioctl+0x2f6/0x4d0
+[19103.205739]  [<c10346e1>] ? current_fs_time+0x11/0x50
+[19103.210948]  [<c10e2817>] ? vfs_read+0xf7/0x160
+[19103.215555]  [<c10f16d8>] sys_ioctl+0x58/0x80
+[19103.219978]  [<c1353e18>] syscall_call+0x7/0xb
+[19103.224549] ---[ end trace 656a17f624ef39be ]---
+[19103.249697] ------------[ cut here ]------------
+[19103.254520] WARNING: at /home/yhlee/sdk/build/tmp/work/quark-poky-linux/linux-yocto-quark/3.8-r0/linux/drivers/gpio/gpiolib.c:1921 __gpio_set_value+0xcf/0xe0()
+[19103.268941] Hardware name: QUARK
+[19103.272268] Modules linked in: HCSR04_drv(O) bnep g_acm_ms libcomposite usbhid usb_storage stmmac pppoe pppox ppp_generic slhc pch_udc udc_core ohci_hcd iwlwifi cfg80211 gpio_sch evdev ehci_pci ehci_hcd adc1x8s102(C) industrialio_triggered_buffer kfifo_buf industrialio spi_pxa2xx spi_pxa2xx_pci spidev i2c_dev efivars pca9685 btusb regmap_i2c gpio_pca953x bluetooth rfkill usbcore intel_qrk_gip usb_common uio at24 ipv6 [last unloaded: HCSR04_drv]
+[19103.312710] Pid: 476, comm: HCSR04_user Tainted: G      D WC O 3.8.7-yocto-standard #1
+[19103.320739] Call Trace:
+[19103.323270]  [<c102e6ec>] warn_slowpath_common+0x6c/0xa0
+[19103.328647]  [<c11c610f>] ? __gpio_set_value+0xcf/0xe0
+[19103.333963]  [<c11c610f>] ? __gpio_set_value+0xcf/0xe0
+[19103.339182]  [<c102e7c2>] warn_slowpath_null+0x22/0x30
+[19103.344477]  [<c11c610f>] __gpio_set_value+0xcf/0xe0
+[19103.349513]  [<d278f882>] hcsr_ioctl+0x202/0x320 [HCSR04_drv]
+[19103.355416]  [<d278f680>] ? hcsr_write+0x1d0/0x1d0 [HCSR04_drv]
+[19103.361495]  [<c10f14a6>] do_vfs_ioctl+0x2f6/0x4d0
+[19103.366351]  [<c10346e1>] ? current_fs_time+0x11/0x50
+[19103.371560]  [<c10e2817>] ? vfs_read+0xf7/0x160
+[19103.376166]  [<c10f16d8>] sys_ioctl+0x58/0x80
+[19103.380683]  [<c1353e18>] syscall_call+0x7/0xb
+[19103.385178] ---[ end trace 656a17f624ef39bf ]---
+[19103.390903] IOCTL: Handler allocated to irq: 58
+[19103.401104] .................inside ioctl............
+[19103.406407] IOCTL: SETMODE:
+[19103.409247] IOCTL: OP_MODE: 1
+[19103.412349] IOCTL: sampling_frequency: 30
+[19103.428649] ..........inside write............
+[19103.440158] Write: input value 1 
+[19103.443510] Write: Triggering one shot
+[19103.460119] Write: Cleared the buffer.. 
+[19105.464449] ..............inside read..........
+[19105.469021] READ: Buffer is empty..
+[19105.472656] READ: ONE SHOT sending signal..
+[19105.500125] READ: ONE SHOT pulse width is 187
+[19105.508632] ..............inside read..........
+[19105.513364] READ: Buffer is empty..
+[19105.516932] READ: ONE SHOT sending signal..
+[19105.550125] READ: ONE SHOT pulse width is 138
+[19105.558552] ..........inside write............
+[19105.563223] Write: input value 0 
+[19105.566617] Write: Triggering one shot
+[19107.590300] ..............inside read..........
+[19111.348273] .................inside ioctl............
+[19111.353488] IOCTL: SETMODE:
+[19111.359369] IOCTL: OP_MODE: 2
+[19111.362683] IOCTL: sampling_frequency: 30
+[19111.370925] ..........inside write............
+[19111.375627] Write: input value 1 
+[19113.379254] ..............inside read..........
+[19113.383948] READ: Buffer is empty..
+[19113.387474] READ: ONE SHOT sending signal..
+[19113.420125] READ: ONE SHOT pulse width is 186
+[19113.428571] ..........inside write............
+[19113.435313] Write: input value 0 
+[19115.439162] ..............inside read..........
+[19115.443854] READ: Buffer is empty..
+[19115.447380] READ: ONE SHOT sending signal..
+[19115.480125] READ: ONE SHOT pulse width is 360
+[19115.488561] ..........inside write............
+[19115.495298] Write: input value 0 
+[19117.499145] ..............inside read..........
+[19117.503836] READ: Buffer is empty..
+[19117.507362] READ: ONE SHOT sending signal..
+[19117.540204] READ: ONE SHOT pulse width is 303
+[19117.549405] ..............inside read..........
+[19117.554290] READ: Buffer is empty..
+[19117.557873] READ: ONE SHOT sending signal..
+[19117.590123] READ: ONE SHOT pulse width is 52
+[19117.598043] 
+...........inside release..............
+[19117.604811] RELEASE: released the device file hc1 minor 59
+[19117.614193] Opened the device file hc2, minor number 58 
+[19141.051943] .................inside ioctl............
+[19141.057041] IOCTL: SETPIN
+[19141.059689] IOCTL: echo_mux: 68, echo_pin: 1, echo_dir: 20
+[19141.065327] IOCTL: trig_pin: 6, trig_dir: 36, trig_mux: -1 
+[19141.076155] ------------[ cut here ]------------
+[19141.080951] WARNING: at /home/yhlee/sdk/build/tmp/work/quark-poky-linux/linux-yocto-quark/3.8-r0/linux/drivers/gpio/gpiolib.c:1921 __gpio_set_value+0xcf/0xe0()
+[19141.095373] Hardware name: QUARK
+[19141.098636] Modules linked in: HCSR04_drv(O) bnep g_acm_ms libcomposite usbhid usb_storage stmmac pppoe pppox ppp_generic slhc pch_udc udc_core ohci_hcd iwlwifi cfg80211 gpio_sch evdev ehci_pci ehci_hcd adc1x8s102(C) industrialio_triggered_buffer kfifo_buf industrialio spi_pxa2xx spi_pxa2xx_pci spidev i2c_dev efivars pca9685 btusb regmap_i2c gpio_pca953x bluetooth rfkill usbcore intel_qrk_gip usb_common uio at24 ipv6 [last unloaded: HCSR04_drv]
+[19141.139112] Pid: 476, comm: HCSR04_user Tainted: G      D WC O 3.8.7-yocto-standard #1
+[19141.147138] Call Trace:
+[19141.149669]  [<c102e6ec>] warn_slowpath_common+0x6c/0xa0
+[19141.155127]  [<c11c610f>] ? __gpio_set_value+0xcf/0xe0
+[19141.160421]  [<c11c610f>] ? __gpio_set_value+0xcf/0xe0
+[19141.165638]  [<c102e7c2>] warn_slowpath_null+0x22/0x30
+[19141.170931]  [<c11c610f>] __gpio_set_value+0xcf/0xe0
+[19141.176021]  [<d278f882>] hcsr_ioctl+0x202/0x320 [HCSR04_drv]
+[19141.181928]  [<d278f680>] ? hcsr_write+0x1d0/0x1d0 [HCSR04_drv]
+[19141.187925]  [<c10f14a6>] do_vfs_ioctl+0x2f6/0x4d0
+[19141.192866]  [<c10346e1>] ? current_fs_time+0x11/0x50
+[19141.197994]  [<c121f4a5>] ? tty_read+0x85/0xb0
+[19141.202594]  [<c10e2817>] ? vfs_read+0xf7/0x160
+[19141.207201]  [<c10f16d8>] sys_ioctl+0x58/0x80
+[19141.211715]  [<c1353e18>] syscall_call+0x7/0xb
+[19141.216209] ---[ end trace 656a17f624ef39c0 ]---
+[19141.240645] IOCTL: Handler allocated to irq: 39
+[19141.252845] .................inside ioctl............
+[19141.258150] IOCTL: SETPIN
+[19141.263077] IOCTL: echo_mux: 68, echo_pin: 1, echo_dir: 20
+[19141.268610] IOCTL: trig_pin: 6, trig_dir: 36, trig_mux: -1 
+[19141.276928] ------------[ cut here ]------------
+[19141.281748] WARNING: at /home/yhlee/sdk/build/tmp/work/quark-poky-linux/linux-yocto-quark/3.8-r0/linux/drivers/gpio/gpiolib.c:1921 __gpio_set_value+0xcf/0xe0()
+[19141.296164] Hardware name: QUARK
+[19141.299426] Modules linked in: HCSR04_drv(O) bnep g_acm_ms libcomposite usbhid usb_storage stmmac pppoe pppox ppp_generic slhc pch_udc udc_core ohci_hcd iwlwifi cfg80211 gpio_sch evdev ehci_pci ehci_hcd adc1x8s102(C) industrialio_triggered_buffer kfifo_buf industrialio spi_pxa2xx spi_pxa2xx_pci spidev i2c_dev efivars pca9685 btusb regmap_i2c gpio_pca953x bluetooth rfkill usbcore intel_qrk_gip usb_common uio at24 ipv6 [last unloaded: HCSR04_drv]
+[19141.339877] Pid: 476, comm: HCSR04_user Tainted: G      D WC O 3.8.7-yocto-standard #1
+[19141.347907] Call Trace:
+[19141.350498]  [<c102e6ec>] warn_slowpath_common+0x6c/0xa0
+[19141.355881]  [<c11c610f>] ? __gpio_set_value+0xcf/0xe0
+[19141.361175]  [<c11c610f>] ? __gpio_set_value+0xcf/0xe0
+[19141.366392]  [<c102e7c2>] warn_slowpath_null+0x22/0x30
+[19141.371688]  [<c11c610f>] __gpio_set_value+0xcf/0xe0
+[19141.376723]  [<d278f882>] hcsr_ioctl+0x202/0x320 [HCSR04_drv]
+[19141.382627]  [<d278f680>] ? hcsr_write+0x1d0/0x1d0 [HCSR04_drv]
+[19141.388626]  [<c10f14a6>] do_vfs_ioctl+0x2f6/0x4d0
+[19141.393575]  [<c135285e>] ? __schedule+0x26e/0x590
+[19141.398440]  [<c10e297f>] ? vfs_write+0xff/0x160
+[19141.403220]  [<c10f16d8>] sys_ioctl+0x58/0x80
+[19141.407651]  [<c1353e18>] syscall_call+0x7/0xb
+[19141.412222] ---[ end trace 656a17f624ef39c1 ]---
+[19141.420964] .................inside ioctl............
+[19141.426057] IOCTL: SETMODE:
+[19141.428872] IOCTL: OP_MODE: 1
+[19141.431976] IOCTL: sampling_frequency: 30
+[19141.449054] ..........inside write............
+[19141.457397] Write: input value 1 
+[19141.460839] Write: Triggering one shot
+[19141.480120] Write: Cleared the buffer.. 
+[19143.484362] ..............inside read..........
+[19143.488934] READ: Buffer is empty..
+[19143.492568] READ: ONE SHOT sending signal..
+[19143.520124] READ: ONE SHOT pulse width is 70
+[19143.528609] ..............inside read..........
+[19143.533488] READ: Buffer is empty..
+[19143.537065] READ: ONE SHOT sending signal..
+[19143.570122] READ: ONE SHOT pulse width is 0
+[19143.578387] ..........inside write............
+[19143.583059] Write: input value 0 
+[19143.586408] Write: Device is busy
+[19145.594305] ..............inside read..........
+[19148.471167] .................inside ioctl............
+[19148.476313] IOCTL: SETMODE:
+[19148.480116] IOCTL: OP_MODE: 2
+[19148.483329] IOCTL: sampling_frequency: 30
+[19148.492141] ..........inside write............
+[19148.496689] Write: input value 1 
+[19150.504166] ..............inside read..........
+[19150.508880] ..........inside write............
+[19150.516505] Write: input value 0 
+[19152.521528] ..............inside read..........
+[19152.526240] ..........inside write............
+[19152.533869] Write: input value 0 
+[19154.537690] ..............inside read..........
+[19154.548392] ..............inside read..........
+[19154.553293] READ: Buffer is empty..
+[19154.556825] READ: ONE SHOT sending signal..
+[19154.590123] READ: ONE SHOT pulse width is 210
+[19154.598531] 
+...........inside release..............

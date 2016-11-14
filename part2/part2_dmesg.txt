@@ -1,0 +1,523 @@
+[  412.385782] Platform device: registered HCSRdevice1.. 
+[  412.409672] Platform device: registered HCSRdevice2.. 
+[  442.573344] Probe: Registration complete HCSRdevice1 - minor number: 59
+[  442.613100] Probe: Registration complete HCSRdevice2 - minor number: 58
+[  462.930806] IRQ: 58
+[  462.933516] Handler allocated to irq: 58
+[  462.946971] ONE SHOT: Triggering the sample.. 
+[  464.100840] DISTANCE: 148.. 
+[  464.114101] PERIODIC: starting kthread..
+[  464.124783] Triggering pulse...  pulse_width 148 
+ Triggering pulse...  pulse_width 808 
+ Triggering pulse...  pulse_width 833 
+ Triggering pulse...  pulse_width 561 
+ Triggering pulse...  pulse_width 788 
+ Triggering pulse...  pulse_width 403 
+ Triggering pulse...  pulse_width 471 
+ Triggering pulse...  pulse_width 641 
+ Triggering pulse...  pulse_width 335 
+ Triggering pulse...  pulse_width 298 
+ Triggering pulse...  pulse_width 52 
+ Triggering pulse...  pulse_width 287 
+ Triggering pulse...  pulse_width 879 
+ Triggering pulse...  pulse_width 783 
+ Triggering pulse...  pulse_width 765 
+ Triggering pulse...  pulse_width 850 
+ Triggering pulse...  pulse_width 516 
+ Triggering pulse...  pulse_width 440 
+ Triggering pulse...  pulse_width 137 
+ Triggering pulse...  pulse_width 287 
+ Triggering pulse...  pulse_width 244 
+ 
+[  464.960236] Triggering pulse...  pulse_width 94 
+ Triggering pulse...  pulse_width 624 
+ Triggering pulse...  pulse_width 865 
+ Triggering pulse...  pulse_width 879 
+ Triggering pulse...  pulse_width 188 
+ Triggering pulse...  pulse_width 278 
+ Triggering pulse...  pulse_width 210 
+ Triggering pulse...  pulse_width 947 
+ Triggering pulse...  pulse_width 505 
+ Triggering pulse...  pulse_width 236 
+ Triggering pulse...  pulse_width 734 
+ Triggering pulse...  pulse_width 715 
+ Triggering pulse...  pulse_width 431 
+ Triggering pulse...  pulse_width 358 
+ Triggering pulse...  pulse_width 171 
+ Triggering pulse...  pulse_width 352 
+ Triggering pulse...  pulse_width 831 
+ Triggering pulse...  pulse_width 445 
+ Triggering pulse...  pulse_width 241 
+ Triggering pulse...  pulse_width 120 
+ Triggering pulse...  pulse_width 83 
+ 
+[  465.800177] Triggering pulse...  pulse_width 938 
+ Triggering pulse...  pulse_width 287 
+ Triggering pulse...  pulse_width 443 
+ Triggering pulse...  pulse_width 921 
+ Triggering pulse...  pulse_width 732 
+ Triggering pulse...  pulse_width 304 
+ Triggering pulse...  pulse_width 570 
+ Triggering pulse...  pulse_width 372 
+ Triggering pulse...  pulse_width 392 
+ Triggering pulse...  pulse_width 131 
+ Triggering pulse...  pulse_width 530 
+ Triggering pulse...  pulse_width 522 
+ Triggering pulse...  pulse_width 610 
+ Triggering pulse...  pulse_width 746 
+ Triggering pulse...  pulse_width 335 
+ Triggering pulse...  pulse_width 428 
+ Triggering pulse...  pulse_width 482 
+ Triggering pulse...  pulse_width 488 
+ Triggering pulse...  pulse_width 924 
+ Triggering pulse...  pulse_width 913 
+ Triggering pulse...  pulse_width 52 
+ 
+[  466.640209] Triggering pulse...  pulse_width 511 
+ Triggering pulse...  pulse_width 564 
+ Triggering pulse...  pulse_width 760 
+ Triggering pulse...  pulse_width 315 
+ Triggering pulse...  pulse_width 15 
+ Triggering pulse...  pulse_width 816 
+ Triggering pulse...  pulse_width 315 
+ Triggering pulse...  pulse_width 528 
+ Triggering pulse...  pulse_width 899 
+ Triggering pulse...  pulse_width 88 
+ Triggering pulse...  pulse_width 998 
+ Triggering pulse...  pulse_width 969 
+ Triggering pulse...  pulse_width 142 
+ Triggering pulse...  pulse_width 159 
+ Triggering pulse...  pulse_width 576 
+ Triggering pulse...  pulse_width 723 
+ Triggering pulse...  pulse_width 134 
+ Triggering pulse...  pulse_width 136 
+ Triggering pulse...  pulse_width 335 
+ Triggering pulse...  pulse_width 731 
+ Triggering pulse...  pulse_width 828 
+ 
+[  467.480177] Triggering pulse...  pulse_width 833 
+ Triggering pulse...  pulse_width 522 
+ Triggering pulse...  pulse_width 893 
+ Triggering pulse...  pulse_width 910 
+ Triggering pulse...  pulse_width 227 
+ Triggering pulse...  pulse_width 476 
+ Triggering pulse...  pulse_width 120 
+ Triggering pulse...  pulse_width 890 
+ Triggering pulse...  pulse_width 678 
+ Triggering pulse...  pulse_width 312 
+ Triggering pulse...  pulse_width 1 
+ Triggering pulse...  pulse_width 392 
+ Triggering pulse...  pulse_width 944 
+ Triggering pulse...  pulse_width 984 
+ Triggering pulse...  pulse_width 86 
+ Triggering pulse...  pulse_width 530 
+ Triggering pulse...  pulse_width 434 
+ Triggering pulse...  pulse_width 179 
+ Triggering pulse...  pulse_width 896 
+ Triggering pulse...  pulse_width 352 
+ Triggering pulse...  pulse_width 678 
+ 
+[  468.320185] Triggering pulse...  pulse_width 646 
+ Triggering pulse...  pulse_width 732 
+ Triggering pulse...  pulse_width 134 
+ Triggering pulse...  pulse_width 216 
+ Triggering pulse...  pulse_width 689 
+ Triggering pulse...  pulse_width 168 
+ Triggering pulse...  pulse_width 111 
+ Triggering pulse...  pulse_width 788 
+ Triggering pulse...  pulse_width 598 
+ Triggering pulse...  pulse_width 46 
+ Triggering pulse...  pulse_width 610 
+ Triggering pulse...  pulse_width 114 
+ Triggering pulse...  pulse_width 882 
+ Triggering pulse...  pulse_width 108 
+ Triggering pulse...  pulse_width 698 
+ Triggering pulse...  pulse_width 814 
+ Triggering pulse...  pulse_width 692 
+ Triggering pulse...  pulse_width 253 
+ Triggering pulse...  pulse_width 52 
+ Triggering pulse...  pulse_width 111 
+ Triggering pulse...  pulse_width 417 
+ 
+[  469.160178] Triggering pulse...  pulse_width 210 
+ Triggering pulse...  pulse_width 18 
+ Triggering pulse...  pulse_width 151 
+ Triggering pulse...  pulse_width 845 
+ Triggering pulse...  pulse_width 366 
+ Triggering pulse...  pulse_width 567 
+ Triggering pulse...  pulse_width 281 
+ Triggering pulse...  pulse_width 958 
+ Triggering pulse...  pulse_width 383 
+ Triggering pulse...  pulse_width 624 
+ Triggering pulse...  pulse_width 916 
+ Triggering pulse...  pulse_width 117 
+ Triggering pulse...  pulse_width 695 
+ Triggering pulse...  pulse_width 94 
+ Triggering pulse...  pulse_width 516 
+ Triggering pulse...  pulse_width 890 
+ Triggering pulse...  pulse_width 972 
+ Triggering pulse...  pulse_width 275 
+ Triggering pulse...  pulse_width 556 
+ Triggering pulse...  pulse_width 992 
+ Triggering pulse...  pulse_width 210 
+ 
+[  470.000184] Triggering pulse...  pulse_width 646 
+ Triggering pulse...  pulse_width 678 
+ Triggering pulse...  pulse_width 114 
+ Triggering pulse...  pulse_width 958 
+ Triggering pulse...  pulse_width 539 
+ Triggering pulse...  pulse_width 981 
+ Triggering pulse...  pulse_width 162 
+ Triggering pulse...  pulse_width 425 
+ Triggering pulse...  pulse_width 698 
+ Triggering pulse...  pulse_width 403 
+ Triggering pulse...  pulse_width 188 
+ Triggering pulse...  pulse_width 530 
+ Triggering pulse...  pulse_width 748 
+ Triggering pulse...  pulse_width 508 
+ Triggering pulse...  pulse_width 641 
+ Triggering pulse...  pulse_width 204 
+ Triggering pulse...  pulse_width 706 
+ Triggering pulse...  pulse_width 972 
+ Triggering pulse...  pulse_width 819 
+ Triggering pulse...  pulse_width 791 
+ Triggering pulse...  pulse_width 238 
+ 
+[  470.850179] Triggering pulse...  pulse_width 686 
+ Triggering pulse...  pulse_width 188 
+ Triggering pulse...  pulse_width 700 
+ Triggering pulse...  pulse_width 238 
+ Triggering pulse...  pulse_width 590 
+ Triggering pulse...  pulse_width 111 
+ Triggering pulse...  pulse_width 18 
+ Triggering pulse...  pulse_width 426 
+ Triggering pulse...  pulse_width 318 
+ Triggering pulse...  pulse_width 596 
+ Triggering pulse...  pulse_width 40 
+ Triggering pulse...  pulse_width 584 
+ Triggering pulse...  pulse_width 52 
+ Triggering pulse...  pulse_width 216 
+ Triggering pulse...  pulse_width 426 
+ Triggering pulse...  pulse_width 352 
+ Triggering pulse...  pulse_width 709 
+ Triggering pulse...  pulse_width 37 
+ Triggering pulse...  pulse_width 137 
+ Triggering pulse...  pulse_width 850 
+ Triggering pulse...  pulse_width 689 
+ 
+[  471.690174] Triggering pulse...  pulse_width 326 
+ Triggering pulse...  pulse_width 185 
+ Triggering pulse...  pulse_width 1 
+ Triggering pulse...  pulse_width 510 
+ Triggering pulse...  pulse_width 145 
+ Triggering pulse...  pulse_width 562 
+ Triggering pulse...  pulse_width 236 
+ Triggering pulse...  pulse_width 482 
+ Triggering pulse...  pulse_width 590 
+ Triggering pulse...  pulse_width 992 
+ Triggering pulse...  pulse_width 154 
+ Triggering pulse...  pulse_width 71 
+ Triggering pulse...  pulse_width 797 
+ Triggering pulse...  pulse_width 771 
+ Triggering pulse...  pulse_width 505 
+ Triggering pulse...  pulse_width 876 
+ Triggering pulse...  pulse_width 780 
+ Triggering pulse...  pulse_width 40 
+ Triggering pulse...  pulse_width 522 
+ Triggering pulse...  pulse_width 471 
+ Triggering pulse...  pulse_width 117 
+ 
+[  472.530230] Triggering pulse...  pulse_width 632 
+ Triggering pulse...  pulse_width 117 
+ Triggering pulse...  pulse_width 426 
+ Triggering pulse...  pulse_width 306 
+ Triggering pulse...  pulse_width 182 
+ Triggering pulse...  pulse_width 219 
+ Triggering pulse...  pulse_width 907 
+ Triggering pulse...  pulse_width 162 
+ Triggering pulse...  pulse_width 74 
+ Triggering pulse...  pulse_width 607 
+ Triggering pulse...  pulse_width 612 
+ Triggering pulse...  pulse_width 389 
+ Triggering pulse...  pulse_width 502 
+ Triggering pulse...  pulse_width 199 
+ Triggering pulse...  pulse_width 510 
+ Triggering pulse...  pulse_width 51 
+ Triggering pulse...  pulse_width 845 
+ Triggering pulse...  pulse_width 686 
+ Triggering pulse...  pulse_width 573 
+ Triggering pulse...  pulse_width 992 
+ Triggering pulse...  pulse_width 136 
+ 
+[  474.140827] PERIODIC: stopping kthread..
+[  474.211425] IRQ: 39
+[  474.213718] Handler allocated to irq: 39
+[  474.231894] ONE SHOT: Triggering the sample.. 
+[  475.370793] DISTANCE: 0.. 
+[  475.383986] PERIODIC: starting kthread..
+[  473.370233] Triggering pulse...  pulse_width 975 
+ Triggering pulse...  pulse_width 715 
+ Triggering pulse...  pulse_width 981 
+ Triggering pulse...  pulse_width 961 
+ Triggering pulse...  pulse_width 256 
+ Triggering pulse...  pulse_width 136 
+ Triggering pulse...  pulse_width 273 
+ Triggering pulse...  pulse_width 250 
+ Triggering pulse...  pulse_width 848 
+ Triggering pulse...  pulse_width 49 
+ Triggering pulse...  pulse_width 244 
+ Triggering pulse...  pulse_width 952 
+ Triggering pulse...  pulse_width 400 
+ Triggering pulse...  pulse_width 664 
+ Triggering pulse...  pulse_width 440 
+ Triggering pulse...  pulse_width 128 
+ Triggering pulse...  pulse_width 318 
+ Triggering pulse...  pulse_width 392 
+ Triggering pulse...  pulse_width 717 
+ Triggering pulse...  pulse_width 83 
+ 
+[  475.394350] Triggering pulse...  pulse_width 0 
+ 
+[  475.440184] Triggering pulse...  pulse_width 445 
+ Triggering pulse...  pulse_width 445 
+ Triggering pulse...  pulse_width 307 
+ Triggering pulse...  pulse_width 307 
+ Triggering pulse...  pulse_width 170 
+ Triggering pulse...  pulse_width 170 
+ Triggering pulse...  pulse_width 601 
+ Triggering pulse...  pulse_width 601 
+ Triggering pulse...  pulse_width 343 
+ Triggering pulse...  pulse_width 343 
+ Triggering pulse...  pulse_width 74 
+ Triggering pulse...  pulse_width 74 
+ Triggering pulse...  pulse_width 842 
+ Triggering pulse...  pulse_width 842 
+ Triggering pulse...  pulse_width 714 
+ Triggering pulse...  pulse_width 714 
+ Triggering pulse...  pulse_width 955 
+ Triggering pulse...  pulse_width 955 
+ Triggering pulse...  pulse_width 598 
+ Triggering pulse...  pulse_width 598 
+ Triggering pulse...  pulse_width 204 
+ 
+[  476.280203] Triggering pulse...  pulse_width 204 
+ Triggering pulse...  pulse_width 176 
+ Triggering pulse...  pulse_width 176 
+ Triggering pulse...  pulse_width 644 
+ Triggering pulse...  pulse_width 644 
+ Triggering pulse...  pulse_width 975 
+ Triggering pulse...  pulse_width 975 
+ Triggering pulse...  pulse_width 9 
+ Triggering pulse...  pulse_width 9 
+ Triggering pulse...  pulse_width 304 
+ Triggering pulse...  pulse_width 304 
+ Triggering pulse...  pulse_width 343 
+ Triggering pulse...  pulse_width 343 
+ Triggering pulse...  pulse_width 9 
+ Triggering pulse...  pulse_width 9 
+ Triggering pulse...  pulse_width 681 
+ Triggering pulse...  pulse_width 681 
+ Triggering pulse...  pulse_width 193 
+ Triggering pulse...  pulse_width 193 
+ Triggering pulse...  pulse_width 142 
+ Triggering pulse...  pulse_width 142 
+ 
+[  477.120176] Triggering pulse...  pulse_width 102 
+ Triggering pulse...  pulse_width 102 
+ Triggering pulse...  pulse_width 462 
+ Triggering pulse...  pulse_width 462 
+ Triggering pulse...  pulse_width 533 
+ Triggering pulse...  pulse_width 533 
+ Triggering pulse...  pulse_width 709 
+ Triggering pulse...  pulse_width 709 
+ Triggering pulse...  pulse_width 511 
+ Triggering pulse...  pulse_width 511 
+ Triggering pulse...  pulse_width 360 
+ Triggering pulse...  pulse_width 360 
+ Triggering pulse...  pulse_width 737 
+ Triggering pulse...  pulse_width 737 
+ Triggering pulse...  pulse_width 901 
+ Triggering pulse...  pulse_width 901 
+ Triggering pulse...  pulse_width 819 
+ Triggering pulse...  pulse_width 819 
+ Triggering pulse...  pulse_width 777 
+ Triggering pulse...  pulse_width 777 
+ Triggering pulse...  pulse_width 233 
+ 
+[  477.960256] Triggering pulse...  pulse_width 233 
+ Triggering pulse...  pulse_width 686 
+ Triggering pulse...  pulse_width 686 
+ Triggering pulse...  pulse_width 403 
+ Triggering pulse...  pulse_width 403 
+ Triggering pulse...  pulse_width 309 
+ Triggering pulse...  pulse_width 309 
+ Triggering pulse...  pulse_width 57 
+ Triggering pulse...  pulse_width 57 
+ Triggering pulse...  pulse_width 323 
+ Triggering pulse...  pulse_width 323 
+ Triggering pulse...  pulse_width 29 
+ Triggering pulse...  pulse_width 29 
+ Triggering pulse...  pulse_width 627 
+ Triggering pulse...  pulse_width 627 
+ Triggering pulse...  pulse_width 139 
+ Triggering pulse...  pulse_width 139 
+ Triggering pulse...  pulse_width 732 
+ Triggering pulse...  pulse_width 732 
+ Triggering pulse...  pulse_width 921 
+ Triggering pulse...  pulse_width 921 
+ 
+[  478.800176] Triggering pulse...  pulse_width 205 
+ Triggering pulse...  pulse_width 205 
+ Triggering pulse...  pulse_width 921 
+ Triggering pulse...  pulse_width 921 
+ Triggering pulse...  pulse_width 171 
+ Triggering pulse...  pulse_width 171 
+ Triggering pulse...  pulse_width 125 
+ Triggering pulse...  pulse_width 125 
+ Triggering pulse...  pulse_width 253 
+ Triggering pulse...  pulse_width 253 
+ Triggering pulse...  pulse_width 375 
+ Triggering pulse...  pulse_width 375 
+ Triggering pulse...  pulse_width 578 
+ Triggering pulse...  pulse_width 578 
+ Triggering pulse...  pulse_width 924 
+ Triggering pulse...  pulse_width 924 
+ Triggering pulse...  pulse_width 77 
+ Triggering pulse...  pulse_width 77 
+ Triggering pulse...  pulse_width 581 
+ Triggering pulse...  pulse_width 581 
+ Triggering pulse...  pulse_width 627 
+ 
+[  479.640172] Triggering pulse...  pulse_width 627 
+ Triggering pulse...  pulse_width 74 
+ Triggering pulse...  pulse_width 74 
+ Triggering pulse...  pulse_width 876 
+ Triggering pulse...  pulse_width 876 
+ Triggering pulse...  pulse_width 519 
+ Triggering pulse...  pulse_width 519 
+ Triggering pulse...  pulse_width 562 
+ Triggering pulse...  pulse_width 562 
+ Triggering pulse...  pulse_width 867 
+ Triggering pulse...  pulse_width 867 
+ Triggering pulse...  pulse_width 825 
+ Triggering pulse...  pulse_width 825 
+ Triggering pulse...  pulse_width 893 
+ Triggering pulse...  pulse_width 893 
+ Triggering pulse...  pulse_width 479 
+ Triggering pulse...  pulse_width 479 
+ Triggering pulse...  pulse_width 760 
+ Triggering pulse...  pulse_width 760 
+ Triggering pulse...  pulse_width 465 
+ Triggering pulse...  pulse_width 465 
+ 
+[  480.480229] Triggering pulse...  pulse_width 488 
+ Triggering pulse...  pulse_width 488 
+ Triggering pulse...  pulse_width 635 
+ Triggering pulse...  pulse_width 635 
+ Triggering pulse...  pulse_width 238 
+ Triggering pulse...  pulse_width 238 
+ Triggering pulse...  pulse_width 360 
+ Triggering pulse...  pulse_width 360 
+ Triggering pulse...  pulse_width 391 
+ Triggering pulse...  pulse_width 391 
+ Triggering pulse...  pulse_width 233 
+ Triggering pulse...  pulse_width 233 
+ Triggering pulse...  pulse_width 783 
+ Triggering pulse...  pulse_width 783 
+ Triggering pulse...  pulse_width 737 
+ Triggering pulse...  pulse_width 737 
+ Triggering pulse...  pulse_width 315 
+ Triggering pulse...  pulse_width 315 
+ Triggering pulse...  pulse_width 533 
+ Triggering pulse...  pulse_width 533 
+ Triggering pulse...  pulse_width 267 
+ 
+[  481.320172] Triggering pulse...  pulse_width 267 
+ Triggering pulse...  pulse_width 188 
+ Triggering pulse...  pulse_width 188 
+ Triggering pulse...  pulse_width 499 
+ Triggering pulse...  pulse_width 499 
+ Triggering pulse...  pulse_width 729 
+ Triggering pulse...  pulse_width 729 
+ Triggering pulse...  pulse_width 661 
+ Triggering pulse...  pulse_width 661 
+ Triggering pulse...  pulse_width 111 
+ Triggering pulse...  pulse_width 111 
+ Triggering pulse...  pulse_width 117 
+ Triggering pulse...  pulse_width 117 
+ Triggering pulse...  pulse_width 649 
+ Triggering pulse...  pulse_width 649 
+ Triggering pulse...  pulse_width 726 
+ Triggering pulse...  pulse_width 726 
+ Triggering pulse...  pulse_width 386 
+ Triggering pulse...  pulse_width 386 
+ Triggering pulse...  pulse_width 171 
+ Triggering pulse...  pulse_width 171 
+ 
+[  482.160206] Triggering pulse...  pulse_width 794 
+ Triggering pulse...  pulse_width 794 
+ Triggering pulse...  pulse_width 307 
+ Triggering pulse...  pulse_width 307 
+ Triggering pulse...  pulse_width 672 
+ Triggering pulse...  pulse_width 672 
+ Triggering pulse...  pulse_width 709 
+ Triggering pulse...  pulse_width 709 
+ Triggering pulse...  pulse_width 125 
+ Triggering pulse...  pulse_width 125 
+ Triggering pulse...  pulse_width 641 
+ Triggering pulse...  pulse_width 641 
+ Triggering pulse...  pulse_width 462 
+ Triggering pulse...  pulse_width 462 
+ Triggering pulse...  pulse_width 391 
+ Triggering pulse...  pulse_width 391 
+ Triggering pulse...  pulse_width 641 
+ Triggering pulse...  pulse_width 641 
+ Triggering pulse...  pulse_width 502 
+ Triggering pulse...  pulse_width 502 
+ Triggering pulse...  pulse_width 43 
+ 
+[  483.000231] Triggering pulse...  pulse_width 43 
+ Triggering pulse...  pulse_width 380 
+ Triggering pulse...  pulse_width 380 
+ Triggering pulse...  pulse_width 578 
+ Triggering pulse...  pulse_width 578 
+ Triggering pulse...  pulse_width 635 
+ Triggering pulse...  pulse_width 635 
+ Triggering pulse...  pulse_width 853 
+ Triggering pulse...  pulse_width 853 
+ Triggering pulse...  pulse_width 238 
+ Triggering pulse...  pulse_width 238 
+ Triggering pulse...  pulse_width 873 
+ Triggering pulse...  pulse_width 873 
+ Triggering pulse...  pulse_width 967 
+ Triggering pulse...  pulse_width 967 
+ Triggering pulse...  pulse_width 760 
+ Triggering pulse...  pulse_width 760 
+ Triggering pulse...  pulse_width 3 
+ Triggering pulse...  pulse_width 3 
+ Triggering pulse...  pulse_width 369 
+ Triggering pulse...  pulse_width 369 
+ 
+[  483.840246] Triggering pulse...  pulse_width 783 
+ Triggering pulse...  pulse_width 783 
+ Triggering pulse...  pulse_width 264 
+ Triggering pulse...  pulse_width 264 
+ Triggering pulse...  pulse_width 491 
+ Triggering pulse...  pulse_width 491 
+ Triggering pulse...  pulse_width 165 
+ Triggering pulse...  pulse_width 165 
+ Triggering pulse...  pulse_width 451 
+ Triggering pulse...  pulse_width 451 
+ Triggering pulse...  pulse_width 205 
+ Triggering pulse...  pulse_width 205 
+ Triggering pulse...  pulse_width 649 
+ Triggering pulse...  pulse_width 649 
+ Triggering pulse...  pulse_width 910 
+ Triggering pulse...  pulse_width 910 
+ Triggering pulse...  pulse_width 193 
+ Triggering pulse...  pulse_width 193 
+ Triggering pulse...  pulse_width 193 
+ Triggering pulse...  pulse_width 193 
+ Triggering pulse...  pulse_width 661 
+ 
+[  485.421895] PERIODIC: stopping kthread..
